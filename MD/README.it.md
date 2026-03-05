@@ -1,9 +1,16 @@
-# BotanyPots Trees
+# 🌳 BotanyPots Trees
 
 Un datapack per Minecraft che aggiunge ricette per alberelli compatibili con la mod BotanyPots.
 
+[![Versione](https://img.shields.io/badge/versione-1.0.0-blue.svg)]()
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green.svg)](https://www.minecraft.net/)
+[![Pack Format](https://img.shields.io/badge/Pack%20Format-61-lightgrey.svg)]()
+[![Licenza](https://img.shields.io/badge/Licenza-MIT-yellow.svg)](../LICENSE)
+
 [![en](https://img.shields.io/badge/lang-en-red.svg)](../README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
+
+> 📝 **Changelog**: Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per la cronologia delle versioni.
 
 ## 📋 Descrizione
 
@@ -60,16 +67,39 @@ Parametri che puoi modificare:
 - `chance`: Probabilità di drop (da 0.0 a 1.0)
 - `minRolls`/`maxRolls`: Numero di oggetti droppati per raccolto
 
+## ❓ FAQ
+
+**D: Funziona su mondi esistenti?**
+R: Sì, aggiungi il datapack al tuo mondo ed esegui `/reload`.
+
+**D: Posso usarlo con altri datapack?**
+R: In generale sì, a meno che un altro datapack non modifichi le ricette BotanyPots per gli alberi nello stesso namespace.
+
+**D: Funziona senza BotanyPots?**
+R: No. La mod BotanyPots è necessaria — il datapack sarà inattivo senza di essa.
+
+**D: Posso personalizzare la velocità di crescita o i drop?**
+R: Sì! Modifica i file JSON in `data/botanypots/recipe/minecraft/crops/`. Vedi la sezione Configurazione per i dettagli.
+
 ## 📄 Licenza
 
-Questo progetto è rilasciato sotto licenza MIT - vedi il file [LICENSE](../LICENSE) per i dettagli.
+Questo progetto è rilasciato sotto la [Licenza MIT](../LICENSE). Sentiti libero di includerlo nelle tue modpack!
 
-## 🤝 Contribuire
+## 👤 Autore
 
-I contributi sono benvenuti! Sentiti libero di:
-- Segnalare bug o problemi
-- Suggerire nuove funzionalità o miglioramenti
-- Inviare pull request
+**Franchino961** — [GitHub](https://github.com/Franchino961-DataPack)
+
+## 🤝 Contributi
+
+I contributi sono benvenuti!
+- Apri una [Issue](../../issues) per segnalare bug o suggerire nuove ricette
+- Apri una [Pull Request](../../pulls) per contribuire
+
+## 💬 Supporto
+
+Se riscontri problemi o hai domande:
+- Controlla le [issue esistenti](../../issues)
+- Crea una nuova issue includendo: versione di Minecraft e versione di BotanyPots
 
 ## 🔗 Link
 
@@ -78,15 +108,8 @@ I contributi sono benvenuti! Sentiti libero di:
 
 ## 📝 Changelog
 
-Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per la cronologia delle versioni e gli aggiornamenti.
-
-## 💬 Supporto
-
-Se riscontri problemi o hai domande:
-- Controlla i problemi esistenti nel repository
-- Crea un nuovo issue con informazioni dettagliate
-- Includi la tua versione di Minecraft e la versione di BotanyPots
+Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per la cronologia completa delle versioni.
 
 ---
 
-**Nota**: Questo datapack richiede l'installazione della mod BotanyPots. Non funzionerà in Minecraft vanilla.
+> ⚠️ **Nota**: Questo datapack richiede l'installazione della mod BotanyPots. Non funzionerà in Minecraft vanilla.
